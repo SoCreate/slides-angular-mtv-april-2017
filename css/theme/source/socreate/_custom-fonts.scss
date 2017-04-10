@@ -1,0 +1,81 @@
+// ==========================================================================
+// Schoolbell
+// ==========================================================================
+@font-face {
+    font-family: "Schoolbell";
+    font-style: normal;
+    font-weight: 400;
+    src: // For ie10 and below
+        url(https://fonts.gstatic.com/s/schoolbell/v6/BSqn7FernLolrt-MFco9WlQlYEbsez9cZjKsNMjLOwM.eot);
+    src: local("Schoolbell"),
+        // For ie10 and below
+    url(https://fonts.gstatic.com/s/schoolbell/v6/BSqn7FernLolrt-MFco9WlQlYEbsez9cZjKsNMjLOwM.eot) format("embedded-opentype"),
+        // For firefox and ie11 on windows phone and below
+    url(https://fonts.gstatic.com/s/schoolbell/v6/BSqn7FernLolrt-MFco9WhsxEYwM7FgeyaSgU71cLG0.woff) format("woff"),
+        // For chrome and ie11
+    url(https://fonts.gstatic.com/s/schoolbell/v6/BSqn7FernLolrt-MFco9WiEAvth_LlrfE80CYdSH47w.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+// ==========================================================================
+// Open sans
+// ==========================================================================
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: // For ie10 and below
+        url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot);
+    src: local("Open Sans"), local("OpenSans"),
+        // For ie10 and below
+    url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3fY6323mHUZFJMgTvxaG2iE.eot) format("embedded-opentype"),
+        // For firefox and ie11 on windows phone and below
+    url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format("woff"),
+        // For chrome and ie11
+    url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: // For ie10 and below
+        url(https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHZ2MAKAc2x4R1uOSeegc5U.eot);
+    src: local("Open Sans Bold"), local("OpenSans-Bold"),
+        // For ie10 and below
+    url(https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHZ2MAKAc2x4R1uOSeegc5U.eot) format("embedded-opentype"),
+        // For firefox and ie11 on windows phone and below
+    url(https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format("woff"),
+        // For chrome and ie11
+    url(https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 400;
+    src: // For ie10 and below
+        url(https://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBmfQcKutQXcIrRfyR5jdjY8.eot);
+    src: local("Open Sans Italic"), local("OpenSans-Italic"),
+        // For ie10 and below
+    url(https://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBmfQcKutQXcIrRfyR5jdjY8.eot) format('embedded-opentype'),
+        // For firefox and ie11 on windows phone and below
+    url(https://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBobN6UDyHWBl620a-IRfuBk.woff) format('woff'),
+        // For chrome and ie11
+    url(https://fonts.gstatic.com/s/opensans/v10/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: italic;
+    font-weight: 700;
+    src: // For ie10 and below
+        url(https://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxrFt29aCHKT7otDW9l62Aag.eot);
+    src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"),
+        // For ie10 and below
+    url(https://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxrFt29aCHKT7otDW9l62Aag.eot) format('embedded-opentype'),
+        // For firefox and ie11 on windows phone and below
+    url(https://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxjqR_3kx9_hJXbbyU8S6IN0.woff) format('woff'),
+        // For chrome and ie11
+    url(https://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxolIZu-HDpmDIZMigmsroc4.woff2) format("woff2");
+}

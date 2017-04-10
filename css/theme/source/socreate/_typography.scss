@@ -1,0 +1,29 @@
+// ==========================================================================
+// Font families
+// ==========================================================================
+$fontFamily__cursive:   "Schoolbell", cursive;
+$fontFamily__sansSerif: "Open Sans", Arial, sans-serif;
+
+// ==========================================================================
+// Font sizes
+// ==========================================================================
+$fontSize__textRoot--style01:           100%;
+$fontSize__textRoot--style02:           92%;
+$fontSize__textRootMultiplier--style01: 0.92;  // Used to multiply items to keep
+// things like headers scaling
+// proportionally as content scales
+
+$fontSize__textRoot--style03:           112.5%;
+$fontSize__textRootMultiplier--style02: 1.125; // Used to multiply items to keep
+// things like headers scaling
+// proportionally as content scales
+
+// ==========================================================================
+// Letterspacing
+// ==========================================================================
+$letterspacing__cursive: 0.05em;
+
+// ==========================================================================
+// Line heights
+// ==========================================================================
+$lineHeight__textRoot:   1.375;

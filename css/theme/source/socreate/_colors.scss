@@ -1,0 +1,138 @@
+// ==========================================================================
+// Brand
+// ==========================================================================
+$color__scBlue--style01:  #2f3e4e;
+$color__scBlue--style02:  #487fa3;
+$color__scBlue--style03:  #3ca6dd;
+$color__scGreen:          #60c126;
+
+// ==========================================================================
+// Shades of gray
+// ==========================================================================
+$color__black:            #000000;
+$color__gray--style01:    #666666;
+$color__gray--style02:    #808080;
+$color__gray--style03:    #b3b3b3;
+$color__gray--style04:    #cccccc;
+$color__gray--style05:    #e6e6e6;
+$color__white:            #ffffff;
+
+// ==========================================================================
+// Other colors
+// ==========================================================================
+$color__orange:           #f7931e;
+$color__red:              #ff0000;
+
+// ==========================================================================
+// Page
+// ==========================================================================
+$color__page:                    $color__gray--style05;
+$color__pageContent:             $color__white;
+
+// ==========================================================================
+// Logos
+// ==========================================================================
+
+// Style 01
+$color__logoLetter01--style01:   $color__scBlue--style01;
+$color__logoLetter02--style01:   $color__white;
+$color__logoLetter03--style01:   $color__scGreen;
+$color__logoSymbol--style01:     $color__scGreen;
+
+
+// Style 02
+$color__logoLetter01--style02:   $color__gray--style03;
+$color__logoLetter02--style02:   $color__gray--style05;
+$color__logoLetter03--style02:   $color__gray--style03;
+$color__logoSymbol--style02:     $color__gray--style03;
+
+
+// Style 03
+$color__logoLetter01--style03:   $color__white;
+$color__logoLetter02--style03:   $color__white;
+$color__logoLetter03--style03:   $color__white;
+$color__logoSymbol--style03:     $color__scGreen;
+
+// ==========================================================================
+// Typography
+// ==========================================================================
+$color__textRoot--style01:       $color__gray--style02;
+$color__textRoot--style02:       $color__gray--style03;
+$color__textInverse--style01:    $color__white;
+$color__textInverse--style02:    $color__gray--style05;
+$color__textHeader:              $color__gray--style01;
+$color__textStrong:              $color__gray--style01;
+
+// ==========================================================================
+// Links
+// ==========================================================================
+
+// Style 01
+$color__link--style01:           $color__scBlue--style03;
+$color__link--style01--hover:    $color__scGreen;
+$color__link--style01--active:   $color__scGreen;
+$color__link--style01--visited:  $color__scBlue--style02;
+
+
+// Style 02
+$color__link--style02:		     $color__gray--style03;
+$color__link--style02--hover:    $color__scBlue--style03;
+
+
+// Style 03
+$color__link--style03:           $color__white;
+$color__link--style03--hover:    $color__white;
+$color__link--style03--active:   $color__white;
+$color__link--style03--visited:  $color__white;
+
+// ==========================================================================
+// Borders
+// ==========================================================================
+$color__border--style01:         $color__gray--style05;
+$color__border--style02:         $color__gray--style04;
+$color__border--style03:         $color__gray--style03;
+$color__border--style04:         $color__gray--style02;
+
+// ==========================================================================
+// Buttons
+// ==========================================================================
+
+// Style 01
+$color__button--style01:         $color__scBlue--style03;
+$color__button--style01--hover:  $color__scBlue--style02;
+$color__button--style01--active: $color__scGreen;
+
+
+// Style 02
+$color__button--style02:         $color__gray--style03;
+$color__button--style02--hover:  $color__scGreen;
+$color__button--style02--active: $color__scGreen;
+
+// ==========================================================================
+// Icons
+// ==========================================================================
+$color__icon--style01:           $color__gray--style04;
+$color__icon--style02:           $color__orange;
+
+// Hover
+$color__icon--style01--hover:    $color__scGreen;
+
+// ==========================================================================
+// Highlights
+// ==========================================================================
+$color__highlight--style01:      $color__scGreen;
+$color__highlight--style02:      $color__scBlue--style03;
+
+// ==========================================================================
+// Sections
+// ==========================================================================
+$color__section--style01:        $color__gray--style05;
+$color__section--style02:        $color__scBlue--style01;
+$color__section--style03:        $color__orange;
+$color__section--style04:        $color__scBlue--style03;
+
+// ==========================================================================
+// Validation
+// ==========================================================================
+$color__validation--error:       $color__red;
+$color__validation--valid:       $color__scGreen;
