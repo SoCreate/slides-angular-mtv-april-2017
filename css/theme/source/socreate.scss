@@ -9,8 +9,8 @@
 //@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 
 // Override theme settings (see ../template/settings.scss)
-$backgroundColor: $color__scGreen;
-$mainColor: $color__white;
+$backgroundColor: $color__white;
+$mainColor: $color__scGreen;
 $headingColor: $color__section--style01;
 $mainFontSize: 42px;
 $mainFont: $fontFamily__sansSerif;
@@ -33,6 +33,79 @@ section.has-light-background {
 }
 
 // Customizations go here ----------------------
+.slides {
+    width: 100% !important;
+}
+.masthead__banner {
+    background-color: $color__scGreen;
+    color: $color__white;
+    min-height: 3em;
+    position: relative;
+    .masthead__bannerTop {
+        top: -1px;
+        height: 14px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        z-index: 2;
+    }
+    .layoutContainer {
+        padding-bottom: .75rem;
+        padding-top: 2.625rem;
+    }
+    .masthead__bannerBottom {
+        bottom: 0;
+        height: 14px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        z-index: 2;
+    }
+}
+
+// Slide styles --------------------------------
+.slide-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .masthead__banner {
+        width: 100%;
+    }
+    .playground-logo .logo {
+        width: 70%;
+        &__box {
+            &--01 {
+                fill: #60c126;
+            }
+            &--02 {
+                fill: #00ACED;
+            }
+            &--03 {
+                fill: #2F3E4E;
+            }
+        }
+        &__letter {
+            fill: #fff;
+        }
+        &__highlight {
+            &--01 {
+                fill: #DD0031;
+            }
+            &--02 {
+                fill: #C3002F;
+            }
+        }
+        &__label {
+            border: 0 !important;
+            clip: rect(1px, 1px, 1px, 1px);
+            height: 1px !important;
+            overflow: hidden;
+            padding: 0 !important;
+            position: absolute !important;
+            width: 1px !important;
+        }
+    }
+}
 
 // ---------------------------------------------
 
