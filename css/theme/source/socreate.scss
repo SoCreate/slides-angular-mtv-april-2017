@@ -36,6 +36,11 @@ section.has-light-background {
 .slides {
     width: 100% !important;
 }
+
+h3 {
+    color: $color__scBlue--style02 !important;
+}
+
 .masthead__banner {
     background-color: $color__scGreen;
     color: $color__white;
@@ -52,6 +57,7 @@ section.has-light-background {
     .layoutContainer {
         padding-bottom: .75rem;
         padding-top: 2.625rem;
+        font-family: $fontFamily__cursive;
     }
     .masthead__bannerBottom {
         bottom: 0;
@@ -63,6 +69,14 @@ section.has-light-background {
     }
 }
 
+.playground-logo .logo {
+    width: 70%;
+}
+
+.url {
+    color: $color__scBlue--style03;
+}
+
 // Slide styles --------------------------------
 .slide-title {
     display: flex;
@@ -71,39 +85,22 @@ section.has-light-background {
     .masthead__banner {
         width: 100%;
     }
-    .playground-logo .logo {
-        width: 70%;
-        &__box {
-            &--01 {
-                fill: #60c126;
-            }
-            &--02 {
-                fill: #00ACED;
-            }
-            &--03 {
-                fill: #2F3E4E;
-            }
-        }
-        &__letter {
-            fill: #fff;
-        }
-        &__highlight {
-            &--01 {
-                fill: #DD0031;
-            }
-            &--02 {
-                fill: #C3002F;
-            }
-        }
-        &__label {
-            border: 0 !important;
-            clip: rect(1px, 1px, 1px, 1px);
-            height: 1px !important;
-            overflow: hidden;
-            padding: 0 !important;
-            position: absolute !important;
-            width: 1px !important;
-        }
+}
+
+.about-schwarty {
+    .avatar {
+        border-radius: 50%;
+        width: 5em;
+    }
+}
+
+.thank-you {
+    .github {
+        border: 0;
+        background-color: #000;
+        padding: 0.3em;
+        border-radius: 0.4em;
+        width: 2em;
     }
 }
 

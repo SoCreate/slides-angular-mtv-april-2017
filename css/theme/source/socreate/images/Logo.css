@@ -1,0 +1,15 @@
+.logo__box--01 {fill: #60c126;}
+.logo__box--02 {fill: #00ACED;}
+.logo__box--03 {fill: #2F3E4E;}
+.logo__letter {fill: #fff;}
+.logo__highlight--01 {fill: #DD0031;}
+.logo__highlight--02 {fill: #C3002F;}
+.logo__label {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px !important;
+    overflow: hidden;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+}

@@ -40,6 +40,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .slides {
   width: 100% !important; }
 
+h3 {
+  color: #487fa3 !important; }
+
 .masthead__banner {
   background-color: #60c126;
   color: #ffffff;
@@ -54,7 +57,8 @@ section.has-light-background, section.has-light-background h1, section.has-light
     z-index: 2; }
   .masthead__banner .layoutContainer {
     padding-bottom: .75rem;
-    padding-top: 2.625rem; }
+    padding-top: 2.625rem;
+    font-family: "Schoolbell", cursive; }
   .masthead__banner .masthead__bannerBottom {
     bottom: 0;
     height: 14px;
@@ -63,34 +67,29 @@ section.has-light-background, section.has-light-background h1, section.has-light
     right: 0;
     z-index: 2; }
 
+.playground-logo .logo {
+  width: 70%; }
+
+.url {
+  color: #3ca6dd; }
+
 .slide-title {
   display: flex;
   flex-direction: column;
   align-items: center; }
   .slide-title .masthead__banner {
     width: 100%; }
-  .slide-title .playground-logo .logo {
-    width: 70%; }
-    .slide-title .playground-logo .logo__box--01 {
-      fill: #60c126; }
-    .slide-title .playground-logo .logo__box--02 {
-      fill: #00ACED; }
-    .slide-title .playground-logo .logo__box--03 {
-      fill: #2F3E4E; }
-    .slide-title .playground-logo .logo__letter {
-      fill: #fff; }
-    .slide-title .playground-logo .logo__highlight--01 {
-      fill: #DD0031; }
-    .slide-title .playground-logo .logo__highlight--02 {
-      fill: #C3002F; }
-    .slide-title .playground-logo .logo__label {
-      border: 0 !important;
-      clip: rect(1px, 1px, 1px, 1px);
-      height: 1px !important;
-      overflow: hidden;
-      padding: 0 !important;
-      position: absolute !important;
-      width: 1px !important; }
+
+.about-schwarty .avatar {
+  border-radius: 50%;
+  width: 5em; }
+
+.thank-you .github {
+  border: 0;
+  background-color: #000;
+  padding: 0.3em;
+  border-radius: 0.4em;
+  width: 2em; }
 
 /*********************************************
  * GLOBAL STYLES
