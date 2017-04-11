@@ -55,17 +55,26 @@ Playground for Angular
     - add scenario "basic address" and add `context: address: {attentionTo, street, city, state, postal}`
     - add scenario "with attention to" and copy context address
     - add scenario "on click" and add `(click)="log(address)"` and `context: log(i) {console.log(i);}`
-- show scenario settings
+  - mention "host" component concept
+    - update component to have `styles: [:host-context('awesome') {color:green;}]`
+    - add scenario "is awesome" and add `<ex-address class="awesome">`
+- show scenario settings (create `.add()` scenarios for each)
     - styles (`styles: ['ex-address {color:red;}']`)  
         (these are for the host "parent")
     - providers  
         (create service `ng g s shared/address-lookup --no-spec --flat=true -m shared/shared.module` and inject service in `AddressComponent`)  
         (show without using `providers` yet...get error in browser)  
         (add `providers: [AddressLookupService]`)
+        (create a `MockAddressLookupService`)
 - show sandbox settings
+    - create `SelectAddressComponent` (`ng g c shared/select-address -it -is --no-spec --flat=true` and form html)
+    - imports (`imports: [FormsModule]`)
+    - add `<ex-address>` to template
+    - declarations (show in browser to show provider dependency error)
+    - providers (add `providers: [AddressLookupService]`)
 - quick recap of use case (to help explain lack of discovery)
-- embed mode
-- deep linking
+- deep linking (explain url for selected scenario)
+- embed mode (`&embed=1`)
 - show example discovery app
 
 ### Where to from here with the Playground project?
