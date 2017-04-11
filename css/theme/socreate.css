@@ -96,32 +96,65 @@ h3 {
       transform: rotate(-90deg);
       position: relative; }
 
-.about-schwarty .avatar {
-  border-radius: 50%;
-  width: 5em; }
-
-.about-schwarty .socreate-logo {
-  width: 5em; }
-
-.about-schwarty .ngair {
-  border: 0;
-  box-shadow: none;
-  width: 4em; }
-
-.about-schwarty .ngconf {
-  border: 0;
-  box-shadow: none;
-  width: 2.7em; }
-
-.about-schwarty .pluralsight {
-  border: 0;
-  box-shadow: none;
-  width: 7em; }
-
-.about-schwarty .lynda {
-  border: 0;
-  box-shadow: none;
-  width: 5em; }
+.about-schwarty {
+  display: flex !important;
+  align-items: center;
+  flex-direction: column; }
+  .about-schwarty figure {
+    display: flex;
+    align-items: center; }
+  .about-schwarty .card {
+    margin-top: 1em;
+    margin-bottom: 1em; }
+    .about-schwarty .card .avatar {
+      border-radius: 50%;
+      width: 5em;
+      margin-right: .7em; }
+    .about-schwarty .card .info {
+      text-align: left; }
+      .about-schwarty .card .info .name {
+        font-weight: bold;
+        position: relative;
+        top: 0.3em;
+        left: 0.1em; }
+      .about-schwarty .card .info .socreate-logo {
+        width: 4.2em;
+        top: 0.5em;
+        position: relative; }
+  .about-schwarty .other-stuff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 58%; }
+    .about-schwarty .other-stuff figure figcaption {
+      margin-right: .5em;
+      font-size: 0.8em;
+      font-style: italic;
+      color: #f7931e; }
+  .about-schwarty .ngair {
+    border: 0;
+    box-shadow: none;
+    width: 3em; }
+  .about-schwarty .ngconf {
+    border: 0;
+    box-shadow: none;
+    width: 2.7em;
+    margin-right: 0.7em; }
+  .about-schwarty .ngcruise {
+    border: 0;
+    box-shadow: none;
+    width: 2.7em; }
+  .about-schwarty .training {
+    position: relative;
+    top: -0.6em; }
+    .about-schwarty .training .pluralsight {
+      border: 0;
+      box-shadow: none;
+      width: 7em; }
+    .about-schwarty .training .lynda {
+      border: 0;
+      box-shadow: none;
+      width: 5em; }
 
 .thank-you .resources {
   display: flex;

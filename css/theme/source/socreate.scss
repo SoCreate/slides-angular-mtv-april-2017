@@ -106,32 +106,79 @@ h3 {
 }
 
 .about-schwarty {
-    .avatar {
-        border-radius: 50%;
-        width: 5em;
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    figure {
+        display: flex;
+        align-items: center;
     }
-    .socreate-logo {
-        width: 5em;
+    .card {
+        margin-top: 1em;
+        margin-bottom: 1em;
+        .avatar {
+            border-radius: 50%;
+            width: 5em;
+            margin-right: .7em;
+        }
+        .info {
+            text-align: left;
+            .name {
+                font-weight: bold;
+                position: relative;
+                top: 0.3em;
+                left: 0.1em;
+            }
+            .socreate-logo {
+                width: 4.2em;
+                top: 0.5em;
+                position: relative;
+            }
+        }
+    }
+    .other-stuff {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 58%;
+        figure {
+            figcaption {
+                margin-right: .5em;
+                font-size: 0.8em;
+                font-style: italic;
+                color: $color__orange;
+            }
+        }
     }
     .ngair {
         border: 0;
         box-shadow: none;
-        width: 4em;
+        width: 3em;
     }
     .ngconf {
         border: 0;
         box-shadow: none;
         width: 2.7em;
+        margin-right: 0.7em;
     }
-    .pluralsight {
+    .ngcruise {
         border: 0;
         box-shadow: none;
-        width: 7em;
+        width: 2.7em;
     }
-    .lynda {
-        border: 0;
-        box-shadow: none;
-        width: 5em;
+    .training {
+        position: relative;
+        top: -0.6em;
+        .pluralsight {
+            border: 0;
+            box-shadow: none;
+            width: 7em;
+        }
+        .lynda {
+            border: 0;
+            box-shadow: none;
+            width: 5em;
+        }
     }
 }
 
