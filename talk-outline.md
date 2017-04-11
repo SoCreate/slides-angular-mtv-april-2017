@@ -47,7 +47,7 @@ Playground for Angular
 - create a sandbox and inline component (`WelcomeComponent`)
   - add a scenario ("first scenario")
   - directive (`HighlightDirective` with `@HostBinding('style.background-color')`)
-  - pipe too ('NgifyPipe`)
+  - pipe too (`NgifyPipe` that prepends "ng-")
 - create sandbox by a component
   - add scenarios
   - show context
