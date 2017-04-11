@@ -68,7 +68,7 @@ Playground for Angular
         (create a `MockAddressLookupService`)
 - show sandbox settings
     - create `SelectAddressComponent` (`ng g c shared/select-address -it -is --no-spec --flat=true` and form html)
-    - **imports** (`imports: [FormsModule]`)
+    - **imports** (`imports: [FormsModule]`)
     - add `<ex-address>` to template
     - **declarations** (show in browser to show provider dependency error)
     - **providers** (add `providers: [AddressLookupService]`)
