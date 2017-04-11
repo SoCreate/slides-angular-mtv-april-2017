@@ -54,10 +54,14 @@ Playground for Angular
   - show context
     - add scenario "basic address" and add `context: address: {attentionTo, street, city, state, postal}`
     - add scenario "with attention to" and copy context address
+    - add scenario "on click" and add `(click)="log(address)"` and `context: log(i) {console.log(i);}`
 - show scenario settings
-    - styles (these are for the host "parent")
-    - providers (create service `ng g s shared/address-lookup --no-spec --flat=true -m shared/shared.module` and inject service in `AddressComponent`)
-        (show without using `providers` yet)
+    - styles (`styles: ['ex-address {color:red;}']`)  
+        (these are for the host "parent")
+    - providers  
+        (create service `ng g s shared/address-lookup --no-spec --flat=true -m shared/shared.module` and inject service in `AddressComponent`)  
+        (show without using `providers` yet...get error in browser)  
+        (add `providers: [AddressLookupService]`)
 - show sandbox settings
 - quick recap of use case (to help explain lack of discovery)
 - embed mode
