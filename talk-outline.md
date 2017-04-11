@@ -59,7 +59,7 @@ Playground for Angular
     - update component to have `styles: [':host(.awesome) {color:green;}']`
     - add scenario "is awesome" and add `<ex-address class="awesome">`
 - show scenario settings (create `.add()` scenarios for each)
-    - **styles** (`styles: ['ex-address {color:red;}']`)  
+    - **styles** (`styles: ['ex-address {border:3px solid red;}']`)  
         (these are for the host "parent")
     - **providers**  
         (create service `ng g s shared/address-lookup --no-spec --flat=true -m shared/shared.module` and inject service in `AddressComponent`)  
