@@ -62,10 +62,10 @@ Playground for Angular
     - **styles** (`styles: ['ex-address {border:3px solid red;}']`)  
         (these are for the host "parent")
     - **providers**  
-        (create service `ng g s shared/address-lookup --no-spec --flat=true -m shared/shared.module` and inject service in `AddressComponent`)  
-        (show without using `providers` yet...get error in browser)  
-        (add `providers: [AddressLookupService]`)
-        (create a `MockAddressLookupService`)
+        (create service `ng g s shared/address-lookup --no-spec --flat=true -m shared/shared.module` and inject service in `AddressComponent` and method `isValid` that returns true)  
+        add scenario "with lookup service" (show without using `providers` yet...get error in browser)  
+        (add `providers: [AddressLookupService]`)  
+        add scenario "when invalid from service" (create a `MockAddressLookupService` and stub out `isValid` method to return false)
 - show sandbox settings
     - create `SelectAddressComponent` (`ng g c shared/select-address -it -is --no-spec --flat=true` and form html)
     - **imports** (`imports: [FormsModule]`)
