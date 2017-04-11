@@ -43,7 +43,7 @@ Playground for Angular
 - what it is
 - where to find it
 
-Demos
+### Demos
 - create a sandbox and inline component
   - add a scenario
   - directive
@@ -58,7 +58,7 @@ Demos
 - deep linking
 - show example discovery app
 
-Where to from here with the Playground project?
+### Where to from here with the Playground project?
 - some clean up of the source code
 - spruce up the example apps
 - add some more to the docs site
