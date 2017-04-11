@@ -58,7 +58,8 @@ h3 {
   .masthead__banner .layoutContainer {
     padding-bottom: .75rem;
     padding-top: 2.625rem;
-    font-family: "Schoolbell", cursive; }
+    font-family: "Schoolbell", cursive;
+    font-size: 1.3em; }
   .masthead__banner .masthead__bannerBottom {
     bottom: 0;
     height: 14px;
@@ -78,10 +79,28 @@ h3 {
   flex-direction: column;
   align-items: center; }
   .slide-title .masthead__banner {
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 1em; }
+  .slide-title .directives-and-pipes-too {
+    z-index: 2;
+    color: #f7931e;
+    font-family: "Schoolbell", cursive;
+    position: absolute;
+    top: -1.3em;
+    left: 15em; }
+    .slide-title .directives-and-pipes-too .arrow {
+      top: 1.5em;
+      left: 0.3em;
+      height: 1.2em;
+      width: 1.7em;
+      transform: rotate(-90deg);
+      position: relative; }
 
 .about-schwarty .avatar {
   border-radius: 50%;
+  width: 5em; }
+
+.about-schwarty .socreate-logo {
   width: 5em; }
 
 .about-schwarty .ngair {
@@ -111,17 +130,24 @@ h3 {
   .thank-you .resources div {
     display: flex;
     align-items: center;
-    text-indent: 2em;
-    width: 24em; }
+    width: 24em;
+    font-weight: bold; }
+    .thank-you .resources div:first-child {
+      margin-bottom: 1em; }
+  .thank-you .resources .distill {
+    color: #808080;
+    font-weight: normal; }
   .thank-you .resources .github {
     border: 0;
-    background-color: #000;
+    background-color: #2f3e4e;
     padding: 0.3em;
     border-radius: 0.4em;
     width: 2em;
-    height: 2em; }
+    height: 2em;
+    margin-right: 1em; }
   .thank-you .resources .docs {
-    width: 2.6em; }
+    width: 2.6em;
+    margin-right: 1em; }
 
 /*********************************************
  * GLOBAL STYLES
