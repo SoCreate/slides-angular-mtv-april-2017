@@ -44,7 +44,7 @@ Playground for Angular
 - where to find it
 
 ### Demos
-- create a sandbox and inline component (`WelcomeComponent`)
+- create a sandbox in `my-sandboxes` and inline component (`WelcomeComponent`)
   - add a scenario ("first scenario")
   - directive (`HighlightDirective` with `@HostBinding('style.background-color')`)
   - pipe too (`NgifyPipe` with `return 'ng-${value}';`)
