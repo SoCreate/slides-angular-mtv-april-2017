@@ -48,9 +48,12 @@ Playground for Angular
   - add a scenario ("first scenario")
   - directive (`HighlightDirective` with `@HostBinding('style.background-color')`)
   - pipe too (`NgifyPipe` with `return 'ng-${value}';`)
-- create sandbox by a component
+- create sandbox by a component (`ng g c shared/address -it -is --no-spec --flat=true` and add `@Input() address` and `<address>`)
   - add scenarios
+    - "no address" (show error in browser then add `ngIf` on `<address>`)
   - show context
+    - add scenario "basic address" and add `context: address: {attentionTo, street, city, state, postal}`
+    - add scenario "with attention to" and copy context address
 - show scenario settings
 - show sandbox settings
 - quick recap of use case (to help explain lack of discovery)
