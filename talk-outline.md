@@ -51,7 +51,7 @@ Playground for Angular
 - create sandbox by a component (`ng g c shared/address -it -is --no-spec --flat=true` and add `@Input() address` and `<address>`)
   - add scenarios
     - "no address" (show error in browser then add `ngIf` on `<address>`)
-  - show context
+  - show **context**
     - add scenario "basic address" and add `context: address: {attentionTo, street, city, state, postal}`
     - add scenario "with attention to" and copy context address
     - add scenario "on click" and add `(click)="log(address)"` and `context: log(i) {console.log(i);}`
@@ -59,19 +59,20 @@ Playground for Angular
     - update component to have `styles: [`:host(.awesome) {color:green;}`]`
     - add scenario "is awesome" and add `<ex-address class="awesome">`
 - show scenario settings (create `.add()` scenarios for each)
-    - styles (`styles: ['ex-address {color:red;}']`)  
+    - **styles** (`styles: ['ex-address {color:red;}']`)  
         (these are for the host "parent")
-    - providers  
+    - **providers**  
         (create service `ng g s shared/address-lookup --no-spec --flat=true -m shared/shared.module` and inject service in `AddressComponent`)  
         (show without using `providers` yet...get error in browser)  
         (add `providers: [AddressLookupService]`)
         (create a `MockAddressLookupService`)
 - show sandbox settings
     - create `SelectAddressComponent` (`ng g c shared/select-address -it -is --no-spec --flat=true` and form html)
-    - imports (`imports: [FormsModule]`)
+    - **imports** (`imports: [FormsModule]`)
     - add `<ex-address>` to template
-    - declarations (show in browser to show provider dependency error)
-    - providers (add `providers: [AddressLookupService]`)
+    - **declarations** (show in browser to show provider dependency error)
+    - **providers** (add `providers: [AddressLookupService]`)
+    - **prependText** (add "featureA")
 - quick recap of use case (to help explain lack of discovery)
 - deep linking (explain url for selected scenario)
 - embed mode (`&embed=1`)
