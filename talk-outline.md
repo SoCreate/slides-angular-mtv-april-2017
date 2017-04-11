@@ -56,7 +56,7 @@ Playground for Angular
     - add scenario "with attention to" and copy context address
     - add scenario "on click" and add `(click)="log(address)"` and `context: log(i) {console.log(i);}`
   - mention "host" component concept
-    - update component to have `styles: [:host-context('awesome') {color:green;}]`
+    - update component to have `styles: [`:host(.awesome) {color:green;}`]`
     - add scenario "is awesome" and add `<ex-address class="awesome">`
 - show scenario settings (create `.add()` scenarios for each)
     - styles (`styles: ['ex-address {color:red;}']`)  
